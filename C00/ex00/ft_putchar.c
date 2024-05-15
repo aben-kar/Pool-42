@@ -11,4 +11,4 @@ void ft_putchar(char c){
 	ft_putchar('\n');
 
 	return 0;
-}/*
+}*/

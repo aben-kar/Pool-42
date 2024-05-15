@@ -1,12 +1,15 @@
 #include <unistd.h>
-void ft_putchar (char c)
+
+void ft_putchar(char c)
 {
-	write (1, &c, 1);
+	 write(1, &c, 1);
 }
+
 void ft_print_alphabet(void)
 {
-	char l;
-	int i;
+	char	l;
+	int	i;
+
 	l = 'a';
 	i = l;
 	while (i <= 'z')
@@ -20,4 +23,4 @@ void ft_print_alphabet(void)
 	ft_print_alphabet();
 	ft_putchar('\n'); 
 	return 0;
-}*/
+}*/ 
