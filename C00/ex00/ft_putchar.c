@@ -6,8 +6,9 @@ void ft_putchar(char c){
 
 /*int main()
 {
-	ft_putchar('A');
+	char c = 'a';
+	ft_putchar(c);
 	ft_putchar('\n');
 
 	return 0;
-}*/
+}/*
