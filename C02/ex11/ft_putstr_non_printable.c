@@ -34,7 +34,7 @@ void ft_putstr_non_printable(char *str)
       str++;
     }
 }
-int main()
+/*int main()
 {
   ft_putstr_non_printable("Coucou\ntu vas bien ?");
-}
+}*/
