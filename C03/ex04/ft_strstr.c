@@ -3,7 +3,7 @@
 
 char *ft_strstr(char *str, char *to_find)
 {
-	while (*to_find == '\0')
+	if (*to_find == '\0')
 	{
 		return str;
 	}
@@ -17,13 +17,13 @@ char *ft_strstr(char *str, char *to_find)
 		{
 			if (to_find[j + 1] == '\0')
 			{
-				return (str + i);
+				return &str[i];
 			}
 			j++;
 		}
 		i++;
 	}
-	return 0;
+	return NULL;
 }
 /*int main()
 {
